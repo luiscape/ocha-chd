@@ -1,0 +1,58 @@
+#### Analysis ####
+
+setwd("~/Documents/Programming/ocha-chd")
+
+library(ggplot2)
+library(scales)
+library(lubridate)
+
+data <- read.csv('data/all-entries.csv')
+data.13 <- subset(data, year(data$created) == year(dmy("01-01-2013")))
+
+data <- data[sample(nrow(data)),]
+sample.javiermethod <- rw.sample(df = data, n = 220)
+
+View(sample.javiermethod)
+
+
+data$created <- as.Date(data$created)
+data.13$created <- as.Date(data.13$created)
+
+
+# Ordering the data by date. #
+b <- data.13
+b <- b[order(b$created),]
+data.13 <- b
+
+
+# Creating an id column 
+a <- rw.id(df = data.13)
+c <- a[1:44195,]
+c <- data.frame(c)
+colnames(c)[1] <- 'id'
+b <- cbind(c, data.13)
+data.13 <- b
+
+
+##### Plotting ##### 
+# Simple plot with all the Reliefweb data. #
+ggplot(data, aes(created)) + theme_bw() + 
+  geom_area(stat = 'bin', size = 1.3, fill = "#EB5C53", alpha = 0.3) + 
+  geom_line(stat = 'bin', size = 1.3, color = "#EB5C53") + 
+  scale_x_date(breaks = date_breaks("year"),
+               labels = date_format("%Y"),
+               limits = c(as.Date("1998-1-1"), as.Date("2014-2-28")))
+
+
+# Simple plot with the reliefweb data from 2013. #
+ggplot(data.13, aes(created)) + theme_bw() + 
+  geom_area(stat = 'bin', size = 1.3, fill = "#0988bb", alpha = 0.3) + 
+  geom_line(stat = 'bin', size = 1.3, color = "#0988bb") + 
+  scale_x_date(breaks = date_breaks("year"),
+               labels = date_format("%Y"),
+               limits = c(as.Date("2013-1-1"), as.Date("2013-12-30")))
+
+
+
+
+
