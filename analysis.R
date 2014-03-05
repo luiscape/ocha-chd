@@ -19,12 +19,6 @@ data$created <- as.Date(data$created)
 data.13$created <- as.Date(data.13$created)
 
 
-# Ordering the data by date. #
-b <- data.13
-b <- b[order(b$created),]
-data.13 <- b
-
-
 # Creating an id column 
 a <- rw.id(df = data.13)
 c <- a[1:44195,]
@@ -32,6 +26,30 @@ c <- data.frame(c)
 colnames(c)[1] <- 'id'
 b <- cbind(c, data.13)
 data.13 <- b
+
+
+# Ordering the whole dataset by date. 
+b <- data[order(data$created),]
+
+# Subsetting years. 
+data.13 <- subset(data, year(data$created) == year(dmy("01-01-2013")))
+data.12 <- subset(data, year(data$created) == year(dmy("01-01-2012")))
+data.11 <- subset(data, year(data$created) == year(dmy("01-01-2011")))
+data.10 <- subset(data, year(data$created) == year(dmy("01-01-2010")))
+data.09 <- subset(data, year(data$created) == year(dmy("01-01-2009")))
+
+# Ordering each year. 
+data.13 <- data.13[order(data.13$created),]
+data.12 <- data.12[order(data.12$created),]
+data.11 <- data.11[order(data.11$created),]
+data.10 <- data.10[order(data.10$created),]
+data.09 <- data.09[order(data.09$created),]
+
+# Sampling. 
+sample.12 <- rw.sample(df = data.12, n = 220)
+sample.11 <- rw.sample(df = data.11, n = 220)
+sample.10 <- rw.sample(df = data.10, n = 220)
+sample.09 <- rw.sample(df = data.09, n = 220)
 
 
 ##### Plotting ##### 
