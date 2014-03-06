@@ -20,6 +20,7 @@ data.12 <- subset(data, year(data$created) == year(dmy("01-01-2012")))
 data.11 <- subset(data, year(data$created) == year(dmy("01-01-2011")))
 data.10 <- subset(data, year(data$created) == year(dmy("01-01-2010")))
 data.09 <- subset(data, year(data$created) == year(dmy("01-01-2009")))
+data.08 <- subset(data, year(data$created) == year(dmy("01-01-2008")))
 
 # Ordering each year. 
 data.13 <- data.13[order(data.13$created),]
@@ -27,6 +28,7 @@ data.12 <- data.12[order(data.12$created),]
 data.11 <- data.11[order(data.11$created),]
 data.10 <- data.10[order(data.10$created),]
 data.09 <- data.09[order(data.09$created),]
+data.08 <- data.08[order(data.08$created),]
 
 # Sampling. 
 sample.13 <- rw.sample(df = data.13, n = 220)
@@ -34,6 +36,15 @@ sample.12 <- rw.sample(df = data.12, n = 220)
 sample.11 <- rw.sample(df = data.11, n = 220)
 sample.10 <- rw.sample(df = data.10, n = 250)
 sample.09 <- rw.sample(df = data.09, n = 250)
+sample.08 <- rw.sample(df = data.08, n = )
+
+# Writing the CSVs.   
+write.csv(sample.13, file = 'data/sample.13.csv', row.names = FALSE)
+write.csv(sample.12, file = 'data/sample.12.csv', row.names = FALSE)
+write.csv(sample.11, file = 'data/sample.11.csv', row.names = FALSE)
+write.csv(sample.10, file = 'data/sample.10.csv', row.names = FALSE)
+write.csv(sample.09, file = 'data/sample.09.csv', row.names = FALSE)
+write.csv(sample.08, file = 'data/sample.08.csv', row.names = FALSE)
 
 
 ##### Plotting ##### 

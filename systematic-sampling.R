@@ -13,14 +13,13 @@ int <- ceiling(N / n)
 
   # Creating an `id` column.
   id.creator <- function(df = NULL) {
-    print("Creatign 'id' columns -- using a highly inefficient method.")
+    print("Creating 'id' columns -- using a highly inefficient method.")
 
     # Create progress bar.
     pb <- txtProgressBar(min = 0, max = N, style = 3)
 
     a <- data.frame(1)
     for (i in 1:nrow(df)) {
-#       Sys.sleep(0.1)
 
       # Update progress bar.
       setTxtProgressBar(pb, i)
@@ -46,7 +45,6 @@ int <- ceiling(N / n)
     a <- data.frame()
     x <- as.numeric(df$id[sample(nrow(df), 1)])
     for (i in 1:n) {
-      Sys.sleep(0.1)
 
       # Update progress bar.
       setTxtProgressBar(pb, i)
