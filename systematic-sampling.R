@@ -20,7 +20,7 @@ int <- ceiling(N / n)
 
     a <- data.frame(1)
     for (i in 1:nrow(df)) {
-      Sys.sleep(0.1)
+#       Sys.sleep(0.1)
 
       # Update progress bar.
       setTxtProgressBar(pb, i)
