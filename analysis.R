@@ -31,8 +31,8 @@ data.09 <- data.09[order(data.09$created),]
 # Sampling. 
 sample.12 <- rw.sample(df = data.12, n = 220)
 sample.11 <- rw.sample(df = data.11, n = 220)
-sample.10 <- rw.sample(df = data.10, n = 220)
-sample.09 <- rw.sample(df = data.09, n = 220)
+sample.10 <- rw.sample(df = data.10, n = 245)
+sample.09 <- rw.sample(df = data.09, n = 245)
 
 
 ##### Plotting ##### 
