@@ -7,29 +7,12 @@ library(scales)
 library(lubridate)
 
 data <- read.csv('data/all-entries.csv')
-data.13 <- subset(data, year(data$created) == year(dmy("01-01-2013")))
 
-data <- data[sample(nrow(data)),]
-sample.javiermethod <- rw.sample(df = data, n = 220)
-
-View(sample.javiermethod)
-
-
+# Making the `created` column as.Date.
 data$created <- as.Date(data$created)
-data.13$created <- as.Date(data.13$created)
-
-
-# Creating an id column 
-a <- rw.id(df = data.13)
-c <- a[1:44195,]
-c <- data.frame(c)
-colnames(c)[1] <- 'id'
-b <- cbind(c, data.13)
-data.13 <- b
-
 
 # Ordering the whole dataset by date. 
-b <- data[order(data$created),]
+data <- data[order(data$created),]
 
 # Subsetting years. 
 data.13 <- subset(data, year(data$created) == year(dmy("01-01-2013")))
@@ -69,8 +52,4 @@ ggplot(data.13, aes(created)) + theme_bw() +
   scale_x_date(breaks = date_breaks("year"),
                labels = date_format("%Y"),
                limits = c(as.Date("2013-1-1"), as.Date("2013-12-30")))
-
-
-
-
 
