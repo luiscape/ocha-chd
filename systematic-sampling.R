@@ -9,7 +9,7 @@
 rw.sample <- function(df = NULL, n = NULL) {
 
 N <- nrow(df)
-int <- (N / n)
+int <- ceiling(N / n)
 
   # Creating an `id` column.
   id.creator <- function(df = NULL) {
