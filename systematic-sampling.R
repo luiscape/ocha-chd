@@ -40,7 +40,7 @@ int <- ceiling(N / n)
     print("Sampling.")
 
     # Create progress bar.
-    pb <- txtProgressBar(min = 0, max = N, style = 3)
+    pb <- txtProgressBar(min = 0, max = n, style = 3)
 
     a <- data.frame()
     x <- as.numeric(df$id[sample(nrow(df), 1)])
@@ -64,5 +64,6 @@ int <- ceiling(N / n)
     return(a)
   }
   a <- sampler(df = df)
+  print("Done.")
   return(a)
 }

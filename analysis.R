@@ -31,15 +31,23 @@ data.10 <- data.10[order(data.10$created),]
 data.09 <- data.09[order(data.09$created),]
 data.08 <- data.08[order(data.08$created),]
 
-# Sampling. 
-sample.13 <- rw.sample(df = data.13, n = 220)
-sample.12 <- rw.sample(df = data.12, n = 220)
-sample.11 <- rw.sample(df = data.11, n = 220)
-sample.10 <- rw.sample(df = data.10, n = 250)
-sample.09 <- rw.sample(df = data.09, n = 250)
-sample.08 <- rw.sample(df = data.08, n = )
+# Sampling.
+sample.13 <- rw.sample(df = data.13, n = 245)
+sample.12 <- rw.sample(df = data.12, n = 245)
+sample.11 <- rw.sample(df = data.11, n = 245)
+sample.10 <- rw.sample(df = data.10, n = 245)
+sample.09 <- rw.sample(df = data.09, n = 245)
+sample.08 <- rw.sample(df = data.08, n = 245)
 
-# Writing the CSVs.   
+# Eliminating the 'country' column
+sample.13$country <- NULL
+sample.12$country <- NULL
+sample.11$country <- NULL
+sample.10$country <- NULL
+sample.09$country <- NULL
+sample.08$country <- NULL
+
+# Writing the CSVs.
 write.csv(sample.13, file = 'data/sample.13.csv', row.names = FALSE)
 write.csv(sample.12, file = 'data/sample.12.csv', row.names = FALSE)
 write.csv(sample.11, file = 'data/sample.11.csv', row.names = FALSE)
@@ -84,4 +92,6 @@ countrycode("COD", "iso3c", "country.name")
 # Simple plot with the reliefweb data from 2013. #
 ggplot(b, aes(reorder(b$iso3, b$summary.data.iso3.), b$summary.data.iso3.)) + theme_bw() + 
   geom_bar(stat = 'identity')
+
+View(b)
 
