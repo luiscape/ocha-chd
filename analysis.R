@@ -5,8 +5,9 @@ setwd("~/Documents/Programming/ocha-chd")
 library(ggplot2)
 library(scales)
 library(lubridate)
+library(countrycode)
 
-data <- read.csv('data/all-entries.csv')
+data <- read.csv('data/all-data.csv')
 
 # Making the `created` column as.Date.
 data$created <- as.Date(data$created)
@@ -64,4 +65,23 @@ ggplot(data.13, aes(created)) + theme_bw() +
   scale_x_date(breaks = date_breaks("year"),
                labels = date_format("%Y"),
                limits = c(as.Date("2013-1-1"), as.Date("2013-12-30")))
+
+  
+# Creating a frequency histogram. 
+a <- data.frame(summary(data$iso3))
+b <- data.frame(a[1:20,])
+c <- data.frame(a[21:nrow(a), ])
+total <- sum(c$summary.data.iso3.)
+d <- data.frame(c(total))
+d$iso3 <- "total"
+colnames(d)[1] <- "summary.data.iso3."
+b <- rbind(b,d)
+b$country <- countrycode(toupper(b$iso3), "iso3c", "country.name")
+
+k <- b$iso3
+countrycode("COD", "iso3c", "country.name")
+
+# Simple plot with the reliefweb data from 2013. #
+ggplot(b, aes(reorder(b$iso3, b$summary.data.iso3.), b$summary.data.iso3.)) + theme_bw() + 
+  geom_bar(stat = 'identity')
 
