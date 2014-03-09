@@ -93,5 +93,12 @@ countrycode("COD", "iso3c", "country.name")
 ggplot(b, aes(reorder(b$iso3, b$summary.data.iso3.), b$summary.data.iso3.)) + theme_bw() + 
   geom_bar(stat = 'identity')
 
-View(b)
+
+
+
+#### Bootstrapping #### 
+
+collection <- read.csv('data/bootstrap/Data Collection Sheet - Luis.csv')
+
+require(boot)
 

@@ -1,0 +1,218 @@
+data.list.id,year,indicator name,source,national or international?,time-reference,level of disagregation
+292266,2009,,,,,
+292335,2009,,,,,
+292732,2009,,,,,
+292913,2009,Export Data,Government Sources,National,,Country
+293028,2009,Number of People Killed,Al Mezan Center ,National,Event,Country
+293432,2009,,,,,
+293466,2009,Number of People Killed,,National,Event,Country
+293466,2009,Number of People Injuired,,National,Event,Country
+293466,2009,Number of People Without Access to Water,,National,Event,Country
+293466,2009,Number of People Without Access to Electricity,,National,Event,Country
+293466,2009,Number of Internaly Displaced People,,National,Event,Country
+293466,2009,Funding Figures,,National,Event,Country
+294121,2009,Program Figures (vaccination and funding),United Methodist Committee on Relief (UMCOR),International,Event,Country
+293678,2009,Number of People Killed,,National,Event,Country
+293906,2009,Number of Internaly Displaced People,UN statistics,International,Event,Country
+293906,2009,Program Figures,Save the Children,International,Event,Country
+294187,2009,,,,,
+294292,2009,Number of People Killed,,National,Event,Country
+294292,2009,Number of House Destroyed,,National,Event,Country
+294555,2009,Number of Malaria Cases,Government of Angola,National,Monthly,Country
+294885,2009,Number of Refugees,,International,Event,Country
+294885,2009,Number of Internaly Displaced People,,National,Event,Country
+296484,2009,Number of Refugees,UNHCR,International,Event,Country
+295516,2009,Number of Refugees,UNHCR,International,Event,Country
+295516,2009,Voter Turnout,Government of Myanmar (Burma),National,Event,Country
+295516,2009,People Bellow Poverty,UNDP,International,Yearly,Country
+295516,2009,Food Security Indicators,OCHA,International,Event,Country
+295623,2009,,,,,
+298050,2009,Number of Security Incidents,UNDSS,National,Monthly,Country
+298050,2009,Number of Cases of Meningitis,,,,Country
+298050,2009,Number of Refugees,UNHCR,International,Monthly,Country
+295920,2009,Number of People Affected,WFP,International,Event,Country
+296209,2009,Number of Districts Affected,,,,
+296485,2009,Number of People Killed,,,,
+296623,2009,,,,,
+296962,2009,Number of Funds Allocated,CERF,International,Event,Regional
+297147,2009,,,,,
+299595,2009,Program Figures,Spapev,International,Event,Location
+297359,2009,,,,,
+297526,2009,,,,,
+297813,2009,Number of People Killed by Cholera,United Nations,International,Event,Country
+297813,2009,Number of People that Require Food Aid,United Nations,International,Event,Country
+298089,2009,Number of Dengue Cases,Ministry of Health of Bolivia,National,Event,Country
+298497,2009,Number of Dengue Cases,Ministry of Health of Bolivia,National,Event,Country
+298990,2009,Number of Cases with Acute Diarrhoea and suspected Cholera,DEWS / WHO,International,Weekly,Location
+298990,2009,Number of Cases with Acute Respiratory Infections,DEWS / WHO,International,Weekly,Location
+298706,2009,,,,,
+299155,2009,Number of Refugees,UNHCR,International,Monthly,Regional
+299134,2009,Number of People Killed by Cholera,,,,
+299134,2009,Number of People Unemployed,,,,
+303057,2009,,,,,
+300693,2009,,,,,
+299922,2009,,,,,
+299792,2009,,,,,
+299979,2009,,,,,
+300280,2009,Number of Funds Allocated,CERF,International,Monthly,World
+300881,2009,Number of Internally Displaced People,,,,
+300650,2009,,,,,
+300885,2009,,,,,
+301722,2009,Number of Internally Displaced People,,,,
+301722,2009,Number of Refugees,UNHCR,International,Multi-year,Regional
+301567,2009,,,,,
+301351,2009,,,,,
+301738,2009,,,,,
+301910,2009,,,,,
+302148,2009,,,,,
+302396,2009,Unemployment Rate,IMF,International,Yearly,Country
+302488,2009,Program Numbers,,National,Event,Location
+302875,2009,Number of Internatlly Displaced People,UNICEF,International,,Country
+12572,2009,Location of Floodings,MapAction,International,Event,Location
+304888,2009,,,,,
+302858,2009,,,,,
+305182,2009,,,,,
+303332,2009,Number of Units Constructed in Settlements,Peace Now Settlement Construction Reports,National,Yearly,Country
+303420,2009,,,,,
+303576,2009,Number of People Affected,WFP,International,Event,Location
+303945,2009,,,,,
+303956,2009,,,,,
+304139,2009,,,,,
+304422,2009,,,,,
+12632,2009,Rainfall Forecast Somalia,FAO Somalia Water and Land Information Management (SWALIM) Project and USGS/FEWS NET Somalia,International,Event,Regional
+304532,2009,,,,,
+305141,2009,,,,,
+305249,2009,Program Figures,Government of Sri Lanka,National,Event,Country
+306113,2009,,,,,
+12690,2009,Yield Maps,EARS (Neatherlands),International,Multi-year,Regional
+305648,2009,Program Figures,ICRC,International,Event,Country
+306226,2009,,,,,
+306281,2009,Number of People Killed,WHO,International,Event,Country
+306281,2009,Number of Homeless Families,WHO,International,Event,Country
+306281,2009,Number of Internally Displaced People,WHO,International,Event,Country
+306268,2009,,,,,
+306402,2009,,,,,
+306639,2009,Number of Refugees,UNHCR,International,Event,Regional
+308466,2009,Funds Available,Common Humanitarian Fund - Sudan,International,Monthly,World
+306858,2009,Program Figures,IOM,International,Monthly,Country
+307103,2009,,,,,
+307651,2009,,,,,
+365161,2010,Number of Refugees,UNHCR,International,Yearly,Regional
+365161,2010,People in Need of Humanitarian Assistance,"Famine Early Warning System Network, Food Security and Nutrition Analysis Unit",International,,Country
+365161,2010,Global Acute Malnutrition Prevalence,WHO,International,Monthly,Country
+365161,2010,SAM Prevalence,WHO,International,Monthly,Country
+366106,2010,,,,,
+365443,2010,Funding Figures,ActAlliance,International,Event,Country
+365443,2010,Number of Houses Burnt,Government of Russia,National,Event,Country
+365443,2010,Number of People Injuired,Government of Russia,National,Event,Country
+365443,2010,Number of People Killed,Government of Russia,National,Event,Country
+365443,2010,Number of Families Left Homeless,Government of Russia,National,Event,Country
+365443,2010,Program Figures,ActAlliance,International,Event,Country
+18142,2010,Trend of Respiratory Diseases,WHO,International,Weekly,World
+17695,2010,3W,USAID,International,Event,Country
+17695,2010,Earthquake Intensiry,USGS/PAGER,National,Event,Country
+17695,2010,Population Movements,OCHA / Government of Haiti,International,Event,Country
+17695,2010,Number of People Affected,OCHA / Government of Haiti,International,Event,Country
+17695,2010,Number of People Killed,OCHA / Government of Haiti,International,Event,Country
+17695,2010,Number of People Injuired,OCHA / Government of Haiti,International,Event,Country
+17695,2010,Number of Internally Displaced People,OCHA / Government of Haiti,International,Event,Country
+17695,2010,Population Figures,Government of Haiti,National,Event,Country
+366012,2010,Number of People Affected,,,Event,Location
+366177,2010,Program Figures,ICRC,International,Yearly,Country
+366177,2010,Number of People that Suffered Human Rights Violations,ICRC,International,Yearly,Country
+366177,2010,Number of People that Received Death Threats,ICRC,International,Yearly,Country
+366177,2010,Number of Victims of Anti-personnel Mines,ICRC,International,Yearly,Country
+366177,2010,Number of Internally Displaced People,ICRC,International,Yearly,Country
+366080,2010,,,,,
+366373,2010,,,,,
+366671,2010,,,,,
+366579,2010,,,,,
+366790,2010,Number of Internally Displaced Peolpe,,,Event,Country
+367047,2010,,,,,
+367267,2010,Number of Refugees,UNHCR,International,Yearly,Regional
+367295,2010,Number of People Killed,OCHA,International,Event,Location
+367295,2010,Number of Internally Displaced Peolpe,UNHCR,International,Event,Regional
+367295,2010,Number of Acute Watery Diarrhea (AWD) Cases,,,Monthly,Location
+367295,2010,Program Figures,WFP,International,Event,Country
+367295,2010,Program Figures,WHO,International,Event,Country
+367534,2010,,,,,
+435191,2010,Disaster Risk Reduction Projects by HFA Priority,OCHA,International,Monthly,Regional
+367788,2010,Ratio of Rape Victims,WFP / Government of Liberia,National,Event,Country
+367788,2010,Population Figures,,,,Country
+368087,2010,Number of Candidates for Elections,Government of Afghanistan,National,Event,Country
+368412,2010,HIV / AIDS Prevalence,World Bank,International,Yearly,Country
+368322,2010,,,,,
+368539,2010,Number of Internally Displaced People,Internal Displacement Monitoring Centre,International,Monthly,Country
+368841,2010,Funding Figures,USAID,International,Yearly,Country
+368868,2010,,,,,
+369307,2010,,,,,
+369616,2010,,,,,
+377832,2010,Number of People Affected,UN Country Team,International,Event,Country
+369532,2010,Number of Internally Displaced People,UNHCR,International,Yearly,Country
+369757,2010,Number of People Killed,Government of Mexico,National,Event,Country
+369823,2010,Number of People Killed,,,,
+369823,2010,Number of People Injuired,Fédération Internationale des Ligues des Droits de I'Homme,International,Event,Country
+370404,2010,,,,,
+370389,2010,,,,,
+370421,2010,Number of People Affected,UN Assistence Mission to Afghanistan,International,Event,Country
+377073,2010,Human Development Index,UNDP,International,Yearly,World
+377073,2010,Number of Internally Displaced People,UNHCR,International,Weekly,District
+371069,2010,Olive Production Figures,,,,
+371220,2010,,,,,
+371330,2010,Number of People in Evacuation Centers,Philippine National Red Cross,National,Event,Municipal
+371720,2010,,,,,
+371760,2010,Number of People Affected,UNDAC (OCHA),International,Event,Location
+371760,2010,Program Figures,,,,
+372014,2010,Number of Damaged Houses,Government of the Philippines,National,Event,Country
+372305,2010,,,,,
+374551,2010,,,,,
+372384,2010,,,,,
+372857,2010,,,,,
+373075,2010,Number of People Registered for the Elections,UN Mission in Sudan,International,Event,Country
+440790,2010,,,,,
+373069,2010,Number of the Settler Population,"B’Tselem, Israeli Central Bureau of Statistics, Israeli Civil Administration",National,Yearly,Country
+373069,2010,Population Growth in Israel and the West Bank,"Central Bureau of Statistics, Statistical Abstract of Israel",National,Yearly,Country
+373459,2010,Number of People Affected,Government of Germany,International,Event,Country
+373504,2010,,,,,
+373690,2010,Food Price Index,FAO,International,Weekly,Country
+373690,2010,Food Commodity Price Indices,FAO,International,Weekly,Country
+373690,2010,Price of Wheat,FAO,International,Weekly,Country
+373690,2010,Price of Rice,FAO,International,Weekly,Country
+373690,2010,Price of Maize,FAO,International,Monthly,Country
+373690,2010,Wholesale maize prices in Eastern Africa,"Regional Agricultural Trade Intelligence Network, Ethiopian Grain Trade Enterprise",International,Monthly,Country
+373690,2010,Wholesale wheat prices in Sudan,"Ministry of Agriculture, Sudan",International,Monthly,Country
+373690,2010,"Retail maize and sorghum prices in Mogadishu, Somalia",Food Security Analysis Unit,International,Monthly,Country
+373690,2010,Wholesale millet prices in Western Africa,Afrique Verte,National,Weekly,Municipal
+373690,2010,"Wholesale maize and sorghum prices in Kano, Nigeria",FEWSNET and since November 2008 Price Watch Bulletin,National,Monthly,Municipal
+373940,2010,Number of People Left Homeless,,,Event,Country
+374307,2010,Program Figures,Government of France,National,Event,Country
+374697,2010,Program Figures,UNDP,International,,Country
+388205,2010,Number of People Living in Extreme Poverty,,,,Country
+374661,2010,Number of Deceased Children wtih Pneumonia,UNICEF,International,,Country
+374833,2010,Number of Internally Displaced People,,,,Country
+375054,2010,,,,,
+375222,2010,Number of People Killed,,,Event,Country
+375222,2010,Program Figures,,,Event,Country
+375445,2010,Number of People Killed,,,Event,Country
+375642,2010,,,,,
+375955,2010,Number of People Killed by Landmines,,,,Country
+376118,2010,Amount of Rain,Government of Sri Lanka,National,Event,Country
+376290,2010,,,,,
+376922,2010,Number of Registered Voters,Government of Burundi,National,Event,Country
+388483,2010,,,,,
+376623,2010,,,,,
+376689,2010,,,,,
+376976,2010,Population Numbers,,,,Municipal
+377085,2010,Program Figures,UNOCI,International,Event,Country
+18725,2010,Map with the Location of Settlements,OCHA,International,Monthly,Country
+377451,2010,Number of People Injuired by Mines,,,,Country
+18863,2010,Number and Location of H1N1 Cases,OCHA,International,Event,Municipal
+18851,2010,Shelter Materials and NFI Distributions,Myanmar Information Management Unit,International,Event,District
+378076,2010,,,,,
+378062,2010,,,,,
+378231,2010,,,,,
+378568,2010,,,,,
+378592,2010,Number of People Killed,,,Event,Country
+378961,2010,Number of Internally Displaced People,UNHCR,International,,Country
+381324,2010,Number of Cholera Cases,Ministry of Health and Child Welfare Rapid Disease Notification System,National,Weekly,District
+379338,2010,Program Figures,European Union,International,,Country
